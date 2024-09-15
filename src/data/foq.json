@@ -1,0 +1,87 @@
+[
+  {
+      "question": "sudo apt update",
+      "answer": "command is used to refresh your system's package index. "
+    },
+    {
+        "question": "systemctl status jenkins",
+        "answer": "It shows whether the Jenkins service is currently active, inactive, or failed"
+      },
+      {
+        "question": "sudo systemctl start docker",
+        "answer": "starts the Docker service on your computer"
+      },
+      {
+        "question": "service docker status",
+        "answer": "checks if the Docker service is running on older systems."
+      },
+      {
+        "question": "sudo journalctl -fu docker.service",
+        "answer": "shows real-time logs for the Docker service"
+      },
+      {
+        "question": "grep",
+        "answer": "used to search for and display lines in text files that match a specified pattern"
+      },
+      {
+        "question": "grep ERROR file.txt",
+        "answer": "finds and displays lines with ERROR in the file file.txt"
+      },
+      {
+        "question": "grep -i ERROR file.txt",
+        "answer": "finds and shows lines with ERROR in file.txt, regardless of case."
+      },
+      {
+        "question": "grep -ir dosto /home/ubuntu",
+        "answer": "searches for dosto in all files under /home/ubuntu, ignoring case and including subdirectories."
+      },
+    
+      {
+        "question": "find /home/ubuntu -name \"*.txt\"",
+        "answer": "searches for all .txt files in the /home/ubuntu directory and its subdirectories."
+      },
+    
+      {
+        "question": "awk",
+        "answer": "awk is used to manipulate and analyze text."
+      },
+    
+      {
+        "question": "awk '/WARN/' app.log",
+        "answer": "prints lines containing WARN from the app.log file."
+      },
+    
+      {
+        "question": "awk '/WARN/ {print $1, $2}' app.log",
+        "answer": "prints the first and second columns of lines containing WARN from the app.log file"
+      },
+    
+      {
+        "question": "awk 'NR >= 1 && NR <= 10 && /WARN/ {print NR}' app.log",
+        "answer": "prints the line numbers of lines containing WARN from the first 10 lines of app.log."
+      },
+      {
+        "question": "awk '/WARN/ {print NR}' app.log",
+        "answer": "prints the line numbers of lines containing WARN from the app.log file."
+      },
+      {
+        "question": "awk '$1 >= \"2015-07-01\" && /WARN/ {print NR}' app.log",
+        "answer": " prints the line numbers of lines where the first column is on or after \"2015-07-01\" and contains \"WARN\""
+      },
+      {
+        "question": "qa_analysis.log",
+        "answer": "is a log file for quality assurance analysis data."
+      },
+      {
+        "question": "cat qa_analysis.log",
+        "answer": "displays the contents of the qa_analysis.log file."
+      }
+      
+    
+    
+    
+    
+    
+    
+    
+  ]

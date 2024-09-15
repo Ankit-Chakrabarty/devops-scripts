@@ -1,0 +1,27 @@
+[
+    {
+      "question": "-rw-rw-r--",
+      "answer": "-:The first character represents the file type,  rw-:The owner can read and write to the file,  rw-The group can also read and write to the file,  r--:Others can only read the file.  "
+    },
+    {
+        "question": "drwxrwxr-x",
+        "answer": "d: This indicates that the entry is a directory.r(read) ,w(write) x(execute), r-x means others have:"
+      },
+      {
+        "question": "chmod",
+        "answer": "stands for change mode, and is a command used in Unix and Unix-like operating systems to change the access permissions of files and directories"
+      },
+      {
+        "question": "chmod 777 filenm",
+        "answer": " sets the file filenm to be readable, writable, and executable by everyone."
+      },
+      {
+        "question": "chmod 740 my-directory/",
+        "answer": "gives the owner full access (read, write, execute), the group read-only access, and others no access to the directory my-directory/"
+      },
+      {
+        "question": "scp",
+        "answer": "Secure Copy Protocol.used to securely transfer files and directories between hosts on a network."
+      }
+    
+  ]

@@ -1,0 +1,11 @@
+[
+    {
+      "question":"#!/bin/bash",
+      "answer": "called a shebang or hashbang.specifies that the script should be executed using the Bash shell"
+    },
+    
+    {
+        "question": "sudo apt update",
+        "answer": "command is used to refresh your system's package index. "
+      }
+    ]  

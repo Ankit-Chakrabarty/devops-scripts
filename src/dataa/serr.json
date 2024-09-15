@@ -1,0 +1,11 @@
+[
+    {
+      "question":"crontab -e",
+      "answer": "opens the current user's cron table in the default text editor for editing scheduled tasks."
+    },
+    
+    {
+        "question": "0 * * * * echo \"Hourly message\"",
+        "answer": "runs the command echo \"Hourly message\" at the start of every hour."
+      }
+    ]  

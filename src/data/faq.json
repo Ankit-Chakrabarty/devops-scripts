@@ -1,0 +1,196 @@
+[
+    {
+      "question": "lsb_release -a",
+      "answer": "provides detailed information about the Linux distribution"
+    },
+    {
+      "question": "echo \"hello\"",
+      "answer": "outputs the text hello to the terminal"
+    },
+    {
+      "question": "whoami",
+      "answer": "displays the username of the currently logged-in user"
+    },
+    {
+      "question": "mkdir ankit",
+      "answer": "creates a new directory named ankit "
+    },
+    {
+      "question": "touch ankit.txt",
+      "answer": "creates an empty file named ankit.txt"
+    },
+    {
+      "question": "cd ankit",
+      "answer": "changes the current working directory to the ankit directory"
+    },
+    {
+      "question": "pwd",
+      "answer": "(print working directory) displays the absolute path of the current directory"
+    },
+    {
+      "question": "ls",
+      "answer": "lists the files and directories in the current working directory"
+    },
+    {
+      "question": "ping www.google.com",
+      "answer": "checks network connectivity and measures the round-trip time of messages to a specified host"
+    },
+    {
+      "question": "cd ..",
+      "answer": "moves up one level in the directory hierarchy"
+    },
+    {
+      "question": "df -h",
+      "answer": " displays disk space usage in a human-readable format showing the available and used space on all mounted filesystems."
+    },
+    {
+      "question": "man",
+      "answer": " providing detailed information about their usage For example, man ls shows the manual for the ls command."
+    },
+    {
+      "question": "q",
+      "answer": "exits the pager and returns you to the command line."
+    },
+    {
+      "question": "touch okay{1..5}.txt",
+      "answer": "creates multiple files named okay1.txt, okay2.txt, okay3.txt, okay4.txt, and okay5.txt in the current directory,"
+    },
+    {
+      "question": "mkdir day{00..50}",
+      "answer": "creates multiple directories named day00, day01, day02, ... up to day50,"
+    },
+    {
+      "question": "rm -r day*",
+      "answer": "removes all directories and files whose names start with day"
+    },
+    {
+      "question": "rm okay1.txt",
+      "answer": "deletes the file named okay1.txt from the current directory."
+    },
+    {
+      "question": "rm -r devops/",
+      "answer": "delete the devops directory and all its contents"
+    },
+    {
+      "question": "clear",
+      "answer": "clears the terminal screen of all previous commands and output"
+    },
+    {
+      "question": "sudo",
+      "answer": "sudo stands for---superuser do"
+    },
+    {
+      "question": "sudo useradd -m jenny",
+      "answer": "creates a new user named jenny and automatically generates a home directory for her"
+    },
+    {
+      "question": "su",
+      "answer": "To switch to the root user"
+    },
+    {
+      "question": "sudo passwd jenny",
+      "answer": "sets or changes the password for the user jenny"
+    },
+    {
+      "question": "su jenny",
+      "answer": " switches the current user to the account jenny, prompting for jenny's password"
+    },
+    {
+      "question": "exit",
+      "answer": "terminates the current shell session or command-line interface"
+    },
+    {
+      "question": "sudo su",
+      "answer": "opens a new shell with superuser (root) privileges"
+    },
+    {
+      "question": "sudo apt-get install docker.io",
+      "answer": "installs Docker, a platform for developing, shipping, and running applications in containers"
+    },
+    {
+      "question": "sudo apt-get update",
+      "answer": "updating the list of available packages and their versions"
+    },
+    {
+      "question": "sudo apt-get install nginx -y",
+      "answer": "installs the Nginx web server on a Debian-based Linux system, automatically confirming any prompts"
+    },
+    {
+      "question": "sudo apt purge docker.io",
+      "answer": "removes Docker and its configuration files from a Debian-based Linux system."
+    },
+    {
+      "question": "vim file1.txt",
+      "answer": "opens file1.txt in the Vim text editor on a Linux system"
+    },
+    {
+      "question": "cat file1.txt",
+      "answer": "displays the contents of file1.txt in the terminal."
+    },
+    {
+      "question": "head file1.txt -n 1",
+      "answer": "shows the first line of file1.txt"
+    },
+    {
+      "question": "tail file1.txt -n 1",
+      "answer": "displays the last line of file1.txt"
+    },
+    {
+      "question": "sudo useradd -m aaa",
+      "answer": "creates a new user named aaa"
+    },
+    {
+      "question": "cat /etc/passwd",
+      "answer": "shows user account details from the system's password file"
+    },
+    {
+      "question": "ls -l file1.txt",
+      "answer": "displays detailed information about file1.txt"
+    },
+    {
+      "question": "sudo groupadd code",
+      "answer": "creates a new group named code on the system"
+    },
+    {
+      "question": "cat /etc/group",
+      "answer": "shows the list of user groups and their members on the system"
+    },
+    {
+      "question": "sudo usermod -aG code aaa",
+      "answer": "adds the user aaa to the code group without removing them from any other groups"
+    },
+    {
+      "question": "sudo gpasswd -M aaa,bbb,bbb code",
+      "answer": "updates the code group to have aaa and bbb as its only members."
+    },
+    {
+      "question": "touch heyy.txt",
+      "answer": "reates an empty file named heyy.txt"
+    },
+    {
+      "question": "sudo chgrp code heyy.txt",
+      "answer": "changes the group ownership of the file heyy.txt to the group code"
+    },
+    {
+      "question": "ls -l",
+      "answer": "the current directory with detailed information."
+    },
+    {
+      "question": "free -h",
+      "answer": "display information about the system's memory usage in a human-readable format"
+    },
+    {
+      "question": "-h",
+      "answer": "uman-readable."
+    },
+    {
+      "question": "mv *.txt devops/",
+      "answer": "moves all .txt files from the current directory into the devops directory"
+    },
+   
+   
+    {
+      "question": "-------------------------------------------------------",
+      "answer": "-------------------------------------------------------------------------------------------------"
+    }
+  ]

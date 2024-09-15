@@ -1,0 +1,7 @@
+[
+    
+    {
+        "question": "sudo apt update",
+        "answer": "command is used to refresh your system's package index. "
+      }
+    ]  
